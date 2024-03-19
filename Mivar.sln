@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34701.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mivar", "Mivar\Mivar.csproj", "{2369759D-A0B3-40D0-94C9-82313D3E8F76}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mivar_Core", "Mivar_Core\Mivar_Core.csproj", "{3FE5C8B5-B4F3-49CA-8795-6456AB9A5374}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2369759D-A0B3-40D0-94C9-82313D3E8F76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2369759D-A0B3-40D0-94C9-82313D3E8F76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2369759D-A0B3-40D0-94C9-82313D3E8F76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2369759D-A0B3-40D0-94C9-82313D3E8F76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FE5C8B5-B4F3-49CA-8795-6456AB9A5374}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FE5C8B5-B4F3-49CA-8795-6456AB9A5374}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FE5C8B5-B4F3-49CA-8795-6456AB9A5374}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FE5C8B5-B4F3-49CA-8795-6456AB9A5374}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2481CDEE-8E84-4564-B5BF-7C8E4F17683C}
+	EndGlobalSection
+EndGlobal
