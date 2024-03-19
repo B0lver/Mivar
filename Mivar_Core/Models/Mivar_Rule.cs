@@ -1,5 +1,6 @@
 ﻿
 using Jint;
+using Mivar_Core.Models;
 
 public class Mivar_Rule
 {

@@ -1,4 +1,6 @@
 ﻿using Mivar;
+using Mivar_Core.Models;
+using System.Diagnostics;
 using System.Xml.Linq;
 
 class Program
@@ -46,9 +48,17 @@ class Program
             "1,1",
         };
 
-        model.SolveModel(Test1_inits, Test1_results);
+        Stopwatch sw = Stopwatch.StartNew();
         model.SolveModel(Test2_inits, Test2_results);
-
+        Console.WriteLine($"{sw.Elapsed.TotalMilliseconds} мс");
+        sw.Restart();
+        model.SolveModel(Test1_inits, Test1_results);
+        Console.WriteLine($"{sw.Elapsed.TotalMilliseconds} мс");
+        sw.Stop();
+        sw.Restart();
+        model.SolveModel(Test2_inits, Test2_results);
+        Console.WriteLine($"{sw.Elapsed.TotalMilliseconds} мс");
+        sw.Stop();
 
         Console.ReadKey();
     }

@@ -2,7 +2,7 @@
 using System.Data;
 using System.Xml.Linq;
 
-namespace Mivar
+namespace Mivar_Core
 {
     public class ModelParser
     {

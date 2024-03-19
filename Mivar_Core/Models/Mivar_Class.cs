@@ -1,5 +1,8 @@
-﻿public class Mivar_Class
+﻿namespace Mivar_Core.Models
 {
-    public string id = string.Empty;
-    public string shortName = string.Empty;
+    public class Mivar_Class
+    {
+        public string id = string.Empty;
+        public string shortName = string.Empty;
+    }
 }
